@@ -6,4 +6,5 @@ RUN apt update && apt -yq install rsyslog
 
 COPY ./rsyslog.conf /etc
 
-CMD [ "rsyslogd", "-n" ]
+ENTRYPOINT [ "rsyslogd" ]
+CMD [ "-n" ]
