@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:jammy-20230308
 
 ARG TZ=America/New_York
 
